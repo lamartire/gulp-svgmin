@@ -1,5 +1,5 @@
 import {Transform} from 'stream';
-import SVGOptim from 'svgo';
+import SVGOptim from '@lamartire/svgo';
 import PluginError from 'plugin-error';
 
 const PLUGIN_NAME = 'gulp-svgmin';

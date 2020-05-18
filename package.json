@@ -1,5 +1,5 @@
 {
-  "name": "gulp-svgmin",
+  "name": "@lamartire/gulp-svgmin",
   "version": "2.2.0",
   "description": "Minify SVG files with gulp.",
   "license": "MIT",
@@ -27,8 +27,8 @@
     "svgo"
   ],
   "dependencies": {
-    "plugin-error": "^1.0.1",
-    "svgo": "^1.2.2"
+    "@lamartire/svgo": "^1.3.2",
+    "plugin-error": "^1.0.1"
   },
   "devDependencies": {
     "ava": "^0.17.0",
@@ -58,5 +58,8 @@
       "node_modules",
       "**/__tests__"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
